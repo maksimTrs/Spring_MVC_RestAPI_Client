@@ -17,7 +17,8 @@ public class Communication {
     private RestTemplate restTemplate;
 
     private static final String URL_PORT = "8084";
-    private static final String URL = "http://localhost:" + URL_PORT + "/Spring_MVC_RestAPI/api/employees";
+   // private static final String URL = "http://localhost:" + URL_PORT + "/Spring_MVC_RestAPI/api/employees";
+    private static final String URL = "http://localhost:" + URL_PORT + "/springBoot-rest/api/employees";
 
     public List<Employee> getAllEmployees() {
 
